@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TWITER CLONE</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h4 class="clone">Twitter Clone</h4>
+            <div class="search">
+            <h4>Search</h4>
+            <select id="user-select" onchange="getUserProfile()">
+                <option value="1">@Bret</option>
+                <option value="2">@Antonette</option>
+                <option value="3">@Samantha</option>
+                <option value="4"></option>
+                <option value="5"></option>
+                
+            </select>
+            </div>
+        </div>
+    
+
+        <div class="profile">
+          <img class="profile-image" id="profile-image" src="https://www.shutterstock.com/image-vector/abstract-animal-art-free-vector-600w-1808845963.jpg" alt="Profile Image">
+          <div class="profile-info">
+            <h2 id="profile-name"></h2>
+            <p id="profile-username"></p>
+            <p id="website-link">link to my website</p>
+            <p id="phrase">multi-layered client server neural-net</p>
+            <p id="geo"></p>
+          </div>
+        </div>
+    
+    <div id="posts">
+
+    </div>
+</body>
+<script src="/main.js"></script>
+</html>
