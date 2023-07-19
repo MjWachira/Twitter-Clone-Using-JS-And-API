@@ -1,22 +1,23 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(249, 249, 248);
+    background-color: rgb(213, 213, 211);
 
 }
 .head{
     width: 100%;
-    height: 50px;
-    background-color: rgb(32, 202, 217);
+    height: 60px;
+    background-color: rgb(42, 225, 242);
     display: flex;
     gap: 10%;
     margin: -1px;
-    border: solid blue;
+    /* border: solid blue; */
     color: white;
     font-size: 13px;
+    align-items: end;
 }
 .clone{
-    margin-left: 30vw;
+    margin-left: 40vw;
 }
 .search{
     display: flex;
@@ -29,13 +30,13 @@ body{
     margin-left:5px ;
 }
 .profile {
-    background-color: rgb(249, 249, 248);
+    background-color: rgb(213, 213, 211);
     display: flex;
     flex-direction: column;
     align-items: start;
     margin-bottom: 20px;
     margin-top: 2px;
-    border: solid green;
+    /* border: solid green; */
 }
 
 .profile-image {
@@ -48,13 +49,13 @@ body{
 
 #posts {
     display: flex;
-    border: solid;
+    /* border: solid; */
     flex-wrap: wrap;
     background-color: white;
 }
 .post{
     display: flex;
-    border: solid red;
+    /* border: solid red; */
     margin-bottom: 20px;
     width: 400px;
     margin-right: auto;
